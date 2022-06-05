@@ -1,0 +1,30 @@
+.accordion {
+    width: 100%;
+}
+
+.accordion_title button {
+    width: 100%;
+    font-size: 24px;
+    padding: 10px 20px 10px 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-style: solid none none none;
+    border-width: 1px;
+}
+
+.accordion_text {
+    padding: 20px;
+    text-align: justify;
+    border-style: solid none none none;
+    border-width: 1px;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.hidden {
+    transform: rotate(180deg);
+}

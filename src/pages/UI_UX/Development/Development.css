@@ -1,0 +1,89 @@
+.iOS {
+    text-align: left;
+    padding: 50px;
+}
+
+.Android {
+    text-align: left;
+    padding: 50px;
+}
+
+.WebApp {
+    text-align: left;
+    padding: 50px;
+}
+
+.WebApp .development_hero {
+    height: 60vh;
+}
+
+.Quality {
+    text-align: left;
+    padding: 50px;
+}
+
+.development_hero {
+    height: 50vh;
+    width: 70%;
+}
+
+.hero_text {
+    margin-bottom: 20px;
+    text-align: justify;
+}
+
+.development_hero h1 {
+    font-size: 72px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.development_devices {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.devices img {
+    height: 128px;
+}
+
+.devices {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.title {
+    margin-top: 60px;
+    font-size: 38px;
+    font-weight: 500;
+}
+
+.highlight_text {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.tech_title {
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.tech_stack {
+    margin-top: 30px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+}
+
+.stack {
+    width: 50%;
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

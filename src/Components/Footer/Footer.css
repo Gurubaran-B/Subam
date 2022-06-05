@@ -1,0 +1,47 @@
+.footer {
+    position: relative;
+    width: 100%;
+    padding: 30px 50px;
+    bottom: 0;
+    background-color: rgb(44, 38, 38);
+    color: white;
+}
+
+.footer_logo img {
+    width: 200px;
+}
+
+.footer_links {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.footer_sub_title {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.footer_sub_links {
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 25px;
+
+}
+
+.footer_sub_links ul {
+    list-style-type: none;
+}
+
+.footer_contact {
+    border-bottom: 1px solid white;
+}
+
+.copyrights {
+    font-size: 12px;
+    font-weight: 300;
+    margin-top: 20px;
+    padding: 0px 15px;
+}

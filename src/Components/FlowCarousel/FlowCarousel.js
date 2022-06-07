@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
-import './Carousel.css';
+import './FlowCarousel.css';
 import right from '../../arrow_back_ios.svg';
 import left from '../../arrow_forward_ios.svg';
 
-function Carousel({children}) {
+function FlowCarousel({children}) {
 
     const [current,setCurrent] = useState(0);
     const [start, setStart] = useState(null);
@@ -47,26 +47,30 @@ function Carousel({children}) {
 
     return (
         <div className='section'>
-            <div className='ccontainer'>
+            <div className='fcontainer'>
 
-            <div className='dots'><button onClick={() => prevSlide()}><img src={right}/></button></div>
+                
 
-                <div className='cslider'>
+                <div className='slider'>
                 {children.map((child, i) =>
-                    (<div className={'cslide'} onTouchStart={onTouchStart} onTouchMove={onTouchMove} onTouchEnd={onTouchEnd} key={i} style={{transform: `translateX(${(i - current) * 100}%)`}}>
+                    (<div className='slide' onTouchStart={onTouchStart} onTouchMove={onTouchMove} onTouchEnd={onTouchEnd} key={i} style={{transform: `translateX(${(i - current) * 50}%)`}}>
+                        <div className='marker_cover'><div className='marker'></div></div>
                         {child}
                     </div>))
                 }
+                <button className='circle'></button>
                 </div>
 
-                <div className='dots'><button onClick={() => nextSlide()}><img src={left}/></button></div>
+                
 
             </div>
 
             <div className='dots'>
+                <div><button onClick={() => prevSlide()}><img src={right}/></button></div>
                 {children.map((_, i) => 
                     (<div className={current == i ? 'dotActive' : 'dot'} key={i} onClick={() => goTo(i)}></div>))
                 }
+                <div><button onClick={() => nextSlide()}><img src={left}/></button></div>
             </div>
 
         </div>
@@ -74,4 +78,4 @@ function Carousel({children}) {
 
 };
 
-export default Carousel;
+export default FlowCarousel;

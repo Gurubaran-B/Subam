@@ -1,6 +1,12 @@
+.main {
+    padding: 10px 50px 10px 50px;
+    overflow: hidden;
+}
+
 .iOS {
     text-align: left;
     padding: 50px;
+    
 }
 
 .Android {
@@ -63,7 +69,7 @@
 }
 
 .highlight_text {
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 500;
 }
 
@@ -87,3 +93,168 @@
     flex-direction: column;
     gap: 20px;
 }
+
+.stack2 {
+    padding: 30px 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.flowchart {
+    width: 50%;
+}
+
+.flowchart_title {
+    font-size: 24px;
+    font-style: bold;
+    margin-bottom: 20px;
+}
+
+.flowchart_text {
+    font-size: 14px;
+}
+
+.flow_contianer {
+    margin-top: 70px;  
+}
+
+.invert {
+    background-color: rgb(44, 38, 38);
+    color: white;
+    width: 100%;
+    padding: 10px 100px;
+}
+
+.stacker {
+    padding: 10px;
+}
+
+.stacker_text {
+    font-size: 13px;
+    padding: 10px;
+}
+
+.stacker_title {
+    font-size: 15px;
+    font-style: oblique;
+}
+
+.careerteam {
+    width: 50%;
+    height: 50%;
+    object-fit: contain;
+}
+
+.careerteam img {
+    width: 465px;
+    height: 416px;
+
+}
+
+.formcontainer {
+    width: 50%;
+}
+
+.formcontainer form {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 10px;
+}
+
+.formcontent {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.formcontent1 {
+    padding: 10px;
+    margin-bottom: 15px;
+    
+}
+
+
+.formcontent input {
+    border: none;
+    width: 350px;
+}
+
+.formcontent1 input {
+    border: none;
+    width: 725px;
+}
+
+
+.formcontent1 label {
+    border-bottom: 1px solid rgb(114, 114, 114);
+}
+
+.formcontent label {
+    border-bottom: 1px solid rgb(114, 114, 114);
+}
+
+form button {
+    padding: 10px;
+    height: 35px;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 7px;
+}
+
+.genContact {
+    padding:10px;
+    display: flex;
+    width: 70%;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.genElement {
+    font-size: 14px;
+
+}
+
+.genElement .tit {
+    font-weight: 500;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.genElement ul {
+    list-style: none;
+}
+
+.Q3 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+    text-align: center;
+
+}
+
+.fhover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+  }
+  
+  .fhover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .fhover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }

@@ -8,7 +8,7 @@ function Contact() {
                 <div className="iOS">
                     <div >
                         <div className="title" style={{padding : '0px 10px'}}>Let's talk about your project!</div>
-                        <div className="highlight_text" style={{padding : '0px 10px', marginTop: '-20px', marginBottom: '15px'}}>hello@subam.co | +91-959-197-7331</div>
+                        <div className="highlight_text" style={{padding : '0px 10px', marginTop: '-20px', marginBottom: '15px'}}>hello@subam.tech | +91-959-197-7331</div>
                         <div class="formcontainer">
                             <form>
                                 <div className="formcontent">

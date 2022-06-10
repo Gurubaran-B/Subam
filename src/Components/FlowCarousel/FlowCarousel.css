@@ -83,3 +83,47 @@
     z-index: 300;
   }
 
+  @media screen and (max-width: 450px) {
+
+
+
+    .title {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+  
+    .ccontainer {
+      height: 50%;
+    }
+  
+    .cslider {
+      height: 20vh;
+    }
+  
+  
+   
+  
+  }
+
+  @media screen and (max-width: 450px) {
+
+
+
+    .title {
+        font-size: 24px;
+        margin-top: 10px;
+    }
+  
+    .ccontainer {
+      height: 50%;
+    }
+  
+    .cslider {
+      height: 25vh;
+    }
+  
+  
+   
+  
+  }
+

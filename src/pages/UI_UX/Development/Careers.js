@@ -7,7 +7,7 @@ function Careers() {
         <div>
             <div className="main">
                 <div className="iOS">
-                    <div className="development_hero" style={{width: '100%',display: 'flex', gap: '50px'}}>
+                    <div className="development_hero af" style={{width: '100%',display: 'flex', gap: '50px'}}>
                         <div style={{width:'100%'}}>
                             <h1>Join our team</h1>
                             <div className="hero_text">Our people make us who we are. We offer growth opportunities to each family member and provide them with the freedom to create products people love.</div>

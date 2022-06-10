@@ -38,7 +38,7 @@ function Footer() {
                         <div className='footer_sub_title'>Contact us</div>
                         <div className='footer_sub_links'>
                             <ul>
-                                <li>hello@subam.co</li>
+                                <li>hello@subam.tech</li>
                                 <li>+91-959-197-7331</li>
                             </ul>
                         </div>

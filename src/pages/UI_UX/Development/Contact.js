@@ -48,14 +48,14 @@ function Contact() {
                                 <div className="genElement">
                                     <div className="tit">Enquiries</div>
                                     <ul>
-                                        <li>hello@subam.co</li>
+                                        <li>hello@subam.tech</li>
                                     </ul>
                                 </div>
 
                                 <div className="genElement">
                                     <div className="tit">Careers</div>
                                     <ul>
-                                        <li>career@subam.co</li>
+                                        <li>career@subam.tech</li>
                                     </ul>
                                 </div>
 

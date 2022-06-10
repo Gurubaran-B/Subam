@@ -4,8 +4,8 @@ import Typewriter from 'typewriter-effect';
 
 function Contactform() {
     return(
-        <div style={{backgroundColor:"rgb(44, 38, 38)",color: 'white'}}>
-        <div style={{padding:'0px 100px 40px 100px  ',width: "100%", display:'flex', alignItems:'baseline', justifyContent:"space-between"}}>
+        <div className="ad" style={{backgroundColor:"rgb(44, 38, 38)",color: 'white'}}>
+        <div className="bd" style={{padding:'0px 100px 40px 100px  ',width: "100%", display:'flex', alignItems:'baseline', justifyContent:"space-between"}}>
 
             <div>
                 <div  className="title">
@@ -15,7 +15,7 @@ function Contactform() {
                                         strings: ['Contact us',"Will we team up?","Let’s discuss your project!"],
                                         autoStart: true,
                                         loop: true, }}
-                                        />
+                                    />
                 </div>
 
             </div>

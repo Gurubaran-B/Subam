@@ -69,3 +69,32 @@
     transform: scaleX(1);
     transform-origin: bottom left;
   }
+
+  @media screen and (max-width: 400px) {
+    .footer {
+        padding: 20px 7px;
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .footer_links{
+        display: block;
+        width: 100%;
+        padding: 20px 0px;
+    }
+
+    .footer_sub_links ul{
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .footer_sub_links ul li{
+        line-height: 15px;
+    }
+
+    .footer_sub {
+        margin-bottom: 10px;
+    }
+
+  }

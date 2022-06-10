@@ -12,7 +12,7 @@ function About() {
                     <div>
                         <div className="title">About us</div>
                         <div className="highlight_text" style={{marginBottom:"40px"}}>If you’re looking for the development partner that “gets it”, has a strong technology stack and a few brilliant ideas up their sleeves, read on.</div>
-                        <div className="hero_text">Subam is a mobile app & web development сompany. We started guiding companies into mobile and web development in 2011 and have successfully completed more than 300 projects ever since. Over the years, we have become a full-cycle development company delivering highly productive and cost-effective applications across various domains.</div>
+                        <div className="hero_text">Subam is a mobile app & web development сompany. We started guiding companies into mobile and web development in 2020 and have successfully completed more than 30 wireframe projects ever since. Over the years, we have become a full-cycle development company delivering highly productive and cost-effective applications across various domains.</div>
                         
                     </div>
 

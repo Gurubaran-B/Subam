@@ -16,7 +16,7 @@ function Home() {
                 <div className="home">
                     <div className="home_container">
                         <div className="home_banner">
-                            <h1>Breathing tech into your ideas</h1>
+                            <h1>Planting tech into your ideas</h1>
                             <div className="type">
                                 <div><h2>We build</h2></div> 
                                 <div className="colorfont"><h2><Typewriter
@@ -33,7 +33,7 @@ function Home() {
 
                     <div className="about container">
                         <div className="title">About us</div>
-                        <div className="about_text">Subam Tech was founded in early 2019 as a mobile and web app development company. The company has successfully developed more than 30 projects.
+                        <div className="about_text">Subam Tech was founded in early 2019 as a mobile and web app development company. The company has successfully developed more than 30 wireframe projects.
                             Our goal is to provide our partners with service par excellence.
                             We've done it before. And we can do it again.
                         </div>
@@ -66,7 +66,7 @@ function Home() {
                             <div className="clogo"><img src={property} /></div>
                             <div className="clogo"><img src={oracle}/></div>
                             <div className="clogo"><img src={sg}/></div>
-                            <div className="clogo" style={{filter:'invert(50)'}}><img src={dana}/></div>
+                            <div className="clogo dana" style={{filter:'invert(50)'}}><img src={dana}/></div>
                         </div>
                     </div>
                     

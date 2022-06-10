@@ -45,3 +45,25 @@
   border-radius: 25%;
   background-color: black;
 }
+
+@media screen and (max-width: 400px) {
+
+
+
+  .title {
+      font-size: 24px;
+      margin-top: 10px;
+  }
+
+  .ccontainer {
+    height: 50%;
+  }
+
+  .cslider {
+    height: 20vh;
+  }
+
+
+ 
+
+}

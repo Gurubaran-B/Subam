@@ -15,7 +15,7 @@ function Ios() {
                 <div className="iOS">
                     <div className="development_hero">
                         <h1>iOS Development</h1>
-                        <div className="hero_text">We started building iOS apps in 2011 and we haven’t stopped since.</div>
+                        <div className="hero_text">We started building iOS apps in 2020 and we haven’t stopped since.</div>
                         <div className="hero_text">We leverage the strength of the iOS platform to help our clients solve their most complicated business challenges. During these years, our dedicated iOS developers have delivered apps to over 100 customers.</div>
                     </div>
                     
